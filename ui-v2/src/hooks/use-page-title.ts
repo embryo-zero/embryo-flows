@@ -1,11 +1,11 @@
 import { useEffect } from "react";
 
-const SUFFIX = "Prefect Server";
+const SUFFIX = "Embryo Flows";
 const SEPARATOR = " • ";
 
 /**
  * A hook that sets the browser page title with the provided segments.
- * Automatically appends "Prefect Server" to all titles and joins segments with " • ".
+ * Automatically appends "Embryo Flows" to all titles and joins segments with " • ".
  * Resets the title to "Prefect Server" when the component unmounts.
  *
  * @param segments - Title segments to display. Null and undefined values are filtered out.
